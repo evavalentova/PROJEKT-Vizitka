@@ -59,31 +59,32 @@ img {
   margin-bottom: 30px;
 }
 
-.twitter {
+.twitter,
+.facebook {
   display: block;
-  background-color: #1da1f2;
   text-align: center;
   border-radius: 5px;
   padding: 0;
   margin: 0;
+}
+
+.twitter {
+  background-color: #1da1f2;
   margin-bottom: 5px;
 }
 
 .twitter a:hover {
   background-color: #0b7bc1;
+  border-radius: 5px;
 }
 
 .facebook {
-  display: block;
   background-color: #3b5998;
-  text-align: center;
-  border-radius: 5px;
-  padding: 0;
-  margin: 0;
 }
 
 .facebook a:hover {
   background-color: #2b406e;
+  border-radius: 5px;
 }
 
 a {
